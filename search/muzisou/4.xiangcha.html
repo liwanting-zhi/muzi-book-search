@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>详细查找页面</title>
+    <style>
+        #sort{position: fixed;margin-top: 140px;margin-left: 0;
+            
+
+        }
+        #content{ position: fixed;margin-top: 210px;margin-left: 0;padding-top: 0;
+        
+        }
+        #cha_content{
+            display: block;width: 75vw;height: 140px;resize: horizontal;
+        }
+        #like{
+            position:fixed;margin-top: 450px;margin-left: 0;
+        }
+        #cha_like{
+            display: block;width:210px;
+        }
+    </style>
+    <link rel="stylesheet" href="nav_style.css">
+</head>
+<body>
+    <div class="nav"></div>
+    <!-- 书籍类别 -->
+     <div id="sort">
+      <form action="#">
+             
+            <label for="cha_sort">书类搜索：</label>
+            <input type="text" id="cha_sort" placeholder="请输入所需查找类别">
+           
+        </form>
+    </div>
+     
+     <!-- 书籍内容 -->
+    <div id="content">
+      <form action="#">
+              
+            <label for="cha_content">内容搜索：</label>
+             <textarea id="cha_content" placeholder="请输入所需查找书籍内容要求"></textarea>
+            
+        </form>
+    </div>
+
+    <!-- 类似书籍 -->
+     <div id="like">
+        <form action="#">
+             
+            <label for="cha_like">类似书籍</label>
+            <input type="text" id="cha_like" placeholder="请输入相似书籍">
+        </form>
+     </div>
+
+    <script src="kf.js"></script>
+
+</body>
+</html>

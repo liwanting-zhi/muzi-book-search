@@ -1,0 +1,57 @@
+        body{background-color: rgb(240, 242, 225);
+            
+           
+            
+        }
+        h1{
+            color: rgb(7, 0, 3);position: fixed;
+            margin-top: 0;height: 70px;padding-top: 14px;z-index: 1;
+            width: 100%;font-family:"KaiTi",serif;font-weight: bolder;background-image:url("ED194D0CEC551E07CF20494E5AD1E22C.jpg");background-size:cover;
+      
+        }
+        .daohang{display:flex;margin-top: 70px;
+            width: 100%;position: fixed;align-items: center;
+           background-color: rgb(207, 222, 171);
+           gap:3vw;border-radius: 12px;box-shadow: 3px 3px 7px rgb(54, 87, 24);
+
+          
+           
+            
+        }
+        .daohang a{text-decoration: none;color: black;padding: 0.7vw;font-family: "KaiTi";
+        font-weight: bolder ;border-radius: 7px;box-shadow: 3px 3px 7px rgb(196, 225, 124);text-align: center;
+        font-size: clamp(10px,2vw,14px);white-space:nowrap;
+        }
+           
+        .recommend{
+            background-color: rgb(224, 183, 173);margin-left: 12px;
+            
+        } 
+          
+        
+        .classify{
+            background-color: rgb(232, 229, 182);
+        }
+        .detail{
+            background-color: rgb(182, 197, 225);
+        }
+        .shujia{
+            background-color: rgb(237, 185, 166);
+        }
+        .my{
+            background-color: rgb(218, 154, 247);
+        }
+        .image1{width: 55vw;;height:auto;position: fixed;z-index: -1;
+            left: 0;bottom: 0;pointer-events: none;
+
+        }
+        .image1 img{
+            width: 100%;height: auto;
+        }
+        .image2{width: 70vw;height: 20vw;left: 0;top: 0;pointer-events: none;position: fixed;z-index: -1;
+
+        }
+        .image2 img{
+            width: 100%;
+        }
+   
